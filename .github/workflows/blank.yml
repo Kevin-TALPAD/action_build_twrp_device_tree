@@ -19,6 +19,7 @@ jobs:
       
     - name: Prepare the environment
       run: |
+        uname -m
         sudo apt update
         sudo apt -y install python3 python3-pip cpio wget git
         pip install twrpdtgen
