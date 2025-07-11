@@ -25,10 +25,6 @@ jobs:
         pip install twrpdtgen
         pip3 install sebaubuntu-libs
         mkdir dt
-        git clone https://github.com/AIK/tools.git ~/AIK
-        chmod +x ~/AIK/*.sh
-        export PATH=$PATH:~/AIK
-        ~/AIK/unpackimg.sh --help
       
     - name: Download boot or recovery img
       run: |
